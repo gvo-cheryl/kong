@@ -15,4 +15,3 @@ ENV KONG_DATABASE=postgres \
 EXPOSE 8080 8001
 
 CMD ["kong", "docker-start"]
-
